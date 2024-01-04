@@ -1,0 +1,30 @@
+body {
+    background-color: black;    
+}
+.dot{
+    height: 20px ;
+    width: 20px;
+    background-color: violet;    
+    /* box-shadow: 0rem 0rem 2rem; */
+    position: absolute;
+    transform: translate(-50%,-50%);
+    perspective: 500px;
+    transform-style: preserve-3d;    
+    animation-name: starMove;
+    animation-duration: 0.3s;
+}
+
+@keyframes starMove {
+    0%{
+        transform: rotate(0deg) 
+    }  
+    25%{
+        transform: rotateX(25deg) ;
+    }
+    50%{
+        transform: rotateX(50deg) ;
+    }
+    100%{
+        transform: rotateX(75deg) ;
+    }
+}
