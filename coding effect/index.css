@@ -1,0 +1,9 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: "Rubik",sans-serif;
+    overflow-x: hidden;    
+}
+p {
+    font-size: 20vw;
+}
