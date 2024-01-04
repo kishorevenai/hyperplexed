@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    font-size: 5vw;
+    font-family: "Rubik",sans-serif;
+}
+#text{
+    width: 50vw;
+}
+p {
+    color: white;    
+    margin: 0rem;
+    text-transform: uppercase;
+}
+.line {
+    display: flex;
+    justify-content: space-between;
+}
