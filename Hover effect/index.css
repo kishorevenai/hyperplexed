@@ -1,4 +1,4 @@
-body {
+body {    
     background-color: black;
     font-size: 5vw;
     font-family: "Rubik",sans-serif;
@@ -10,6 +10,7 @@ a {
     color: white;    
     margin: 0rem;
     text-transform: uppercase;
+    text-decoration: none;
 }
 .line {
     display: flex;
@@ -18,10 +19,7 @@ a {
 
 /* indicates if the #text :has a .fancay word which :hovers  */
 
-#text:has(.fancy:hover) .word:not(.fancy:hover) {
+#text:has(.fancy:hover) .word:not(.fancy:hover) {    
     transition: 0.3s;
     opacity: 0.3;
-}
-.fancy:hover > .letter:first-child{
-    
 }
