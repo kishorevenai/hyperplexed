@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.scroll-card {
+    height: 500px;
+    aspect-ratio: 2/3;
+    background-color: white;
+    border-radius: 20px;    
+    transition: 0.3s;
+}

@@ -20,7 +20,7 @@ h1[0].addEventListener("mouseover", (e) => {
             
             if(changer > 12)  clearInterval(nameChange)
             changer++
-        },30)
+        },20)
         
 })
 
