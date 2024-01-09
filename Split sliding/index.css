@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+.side .title {
+    color: white;
+    font-family: "Rubik",sans-serif;
+    font-size: 8vw;
+    margin: 0px 15vw;
+    width: 70vw;
+}
+
+.side {
+    height: 100vh;    
+    width: 100%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;    
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    transition: 0.2s;
+}
+
+#left-side {
+    background-color: purple;
+    z-index: 2;
+}
+#right-side {
+    background-color: yellow;
+}
+span{
+    font-family: monospace, monospace;
+    font-size: 1.3em;
+    line-height: 0.8em;
+}
+.new .won{
+    color: black;
+}

@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;    
+    height: 100vh;
+    align-items: center;
+}
+
+.outer_card {
+    position: relative;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    height: 500px;    
+    aspect-ratio: 1/1;    
+}
+
+.inner_card {
+    border-radius: 20px;
+    position: absolute;
+    height: 500px;
+    aspect-ratio: 2/3;    
+    background-color: white;
+    transition: width 2s;
+    
+}
+.inner_card:nth-child(1){    
+    background-color: green;
+    transition: 0.3s;    
+}
+.outer_card:hover > .inner_card:nth-child(1) {
+    transform: translate(60%,10%) rotate(20deg);    
+    transition-timing-function: cubic-bezier(0, 0.41, 0.08, 1.31);
+}
+/* ---- */
+/* .inner_card:nth-child(2){
+    background-color: rgb(71, 70, 70);
+    transition: 0.3s;    
+}
+.outer_card:hover > .inner_card:nth-child(2) {
+    transform: translate(80%,10%) rotate(50deg);    
+} */
+/* ---- */
+.inner_card:nth-child(3){
+    transition: 0.3s;    
+}
+/* .outer_card:hover > .inner_card:nth-child(3) {
+    transform: translate(20%,20%) rotate(20deg);    
+} */
+/* ----- */
+.inner_card:nth-child(4){
+    background-color: red;
+    transition: 0.3s;    
+}
+.outer_card:hover > .inner_card:nth-child(4) {
+    transform: translate(-60%,10%) rotate(-20deg);    
+    transition-timing-function: cubic-bezier(0, 0.41, 0.08, 1.31);
+}
